@@ -2,10 +2,10 @@ var balloon, balloonPosition;
 var database;
 
 function preload(){
-  bg = loadImage("images/images/bg.png");
-  balloonImage1 = loadImage("images/images/Hot Air Balloon-01.png");
-  balloonImage2 = loadImage("images/images/Hot Air Balloon-02.png");
-  balloonImage3 = loadImage("images/images/Hot Air Balloon-03.png");
+  bg = loadImage("bg.png");
+  balloonImage1 = loadImage("Hot Air Balloon-01.png");
+  balloonImage2 = loadImage("Hot Air Balloon-02.png");
+  balloonImage3 = loadImage("Hot Air Balloon-03.png");
 }
 
 function setup() {
